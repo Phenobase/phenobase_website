@@ -1,0 +1,27 @@
+{
+    "id": "E8523118",
+    "path": "~/Dropbox/phenobase_website/data/content.yml",
+    "project_path": "data/content.yml",
+    "type": "yaml",
+    "hash": "1450077236",
+    "contents": "",
+    "dirty": false,
+    "created": 1665546563510.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "87,0",
+        "scrollLine": "66",
+        "marks": "<:69,2\n>:69,2"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1665595202,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1665595202664,
+    "read_only": false,
+    "read_only_alternatives": []
+}

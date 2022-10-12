@@ -1,0 +1,57 @@
+{{ define "main" }} {{- partial "menu.html" . -}} {{- partial "header.html" .
+-}}
+
+<!-- =============================
+       Start Portfolio
+    =============================== -->
+{{ if .Site.Data.content.portfolio.enable }} {{ with
+.Site.Data.content.portfolio }}
+<section class="about-me" id="portfolio">
+      <div class="text-center">
+        <h1>{{ .title }}</h1>
+        {{ .description | markdownify }}
+      </div>
+          
+</section>
+{{ end }} {{ end }}
+<!-- =============================
+       End Portfolio
+    =============================== -->
+
+
+<!-- =============================
+       Start About Me;
+       changed class to Portfolio so that the menu transition works
+    =============================== -->
+    {{ with .Site.Data.content.about }}
+    
+<section style="background:#eeebeb" id="about">
+      <div class="text-center">
+        <h1>{{ .title | safeHTML }}</h1>
+      
+      {{ range .team_list }}
+      <div id="wrap">
+          <h2>{{ .name }}</h2>
+          
+          <h4>{{ .affliation }}</h4>
+          
+          <img class="left" src="{{ .image | relURL }}" />
+
+          <p>{{ .introduction | markdownify }}</p>
+      </div>
+          
+      {{ end }}
+      
+      </div>
+</section>
+    
+    {{ end }} 
+
+<!-- =============================
+      End About Me
+    =============================== -->
+
+
+
+
+{{- partial "footer.html" . -}} {{ end }}
