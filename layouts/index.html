@@ -25,7 +25,7 @@
     =============================== -->
     {{ with .Site.Data.content.about }}
     
-<section style="background:#eeebeb" id="about">
+<section style="background:#eeebeb; display:flex;justify-content:center;" id="about">
       <div class="text-center">
         <h1>{{ .title | safeHTML }}</h1>
       
@@ -33,11 +33,12 @@
       <div id="wrap">
           <h2>{{ .name }}</h2>
           
+          <img class="left" src="{{ .image | relURL }}" />
+          
           <h4>{{ .affliation }}</h4>
           
-          <img class="left" src="{{ .image | relURL }}" />
-
           <p>{{ .introduction | markdownify }}</p>
+          
       </div>
           
       {{ end }}
