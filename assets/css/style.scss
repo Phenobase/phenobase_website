@@ -1155,7 +1155,7 @@ ul.experience-chart {
     margin-bottom: 5px;
   }
   .animated-text {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 7px;
     margin-bottom: 2px;
   }
@@ -1306,7 +1306,13 @@ ul.experience-chart {
     display: block;
     height: auto;
     margin-bottom: 30px;
+    margin-left: 2%;
+    padding-right: 2%;
     order: 2;
+    max-width: 100%;
+    clear: both;
+    position: relative;
+    text-align: center;
   }
   .about-me-image {
     order: 1;
@@ -1439,7 +1445,7 @@ ul.experience-chart {
 }
 @media (max-width: 600px) {
   .about-me {
-    padding: 70px 0px 0px 0px;
+    padding: 70px 10px 10px 10px;
   }
 }
 @media (max-width: 300px) {
@@ -1448,5 +1454,18 @@ ul.experience-chart {
     .fa {
       margin-bottom: 10px;
     }
+  }
+}
+@media {
+  p {
+    display: block;
+    height: auto;
+    margin-left: 2%;
+    padding-right: 2%;
+    order: 2;
+    max-width: 100%;
+    clear: both;
+    position: relative;
+    text-align: center;
   }
 }
