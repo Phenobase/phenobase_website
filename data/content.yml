@@ -20,9 +20,7 @@ portfolio:
   title: 'Project Summary'
   description: > 
     ![overview image of phenobase](images/overview.jpg)
-    
-    <br>
-    
+  
     ## Overview
     
     Plant phenology – the timing of plant life-cycle events such as leafing out, flowering, 
@@ -49,13 +47,44 @@ portfolio:
     
     ## Intellectual merit
     
-    Creating an accessible, integrated knowledge base of global plant phenological data with broad taxonomic, spatial, and temporal coverage (and tools to aid data use) will have far-reaching basic and applied scientific impact. Phenobase has two major intellectual merits. First, by closing taxonomic, spatial and temporal knowledge-gaps, it will enable finer-grain and broader extent analyses, dramatically improving understanding of global plant phenology pattern and process, relation to ecosystem function, and responses to climate and landscape change. This will, in turn, provide the basis for better predictive models that can be used for responding to the conservation, agricultural, and economic consequences of phenology change. A second area of merit is use of new tools to automate assembly and integration of vast and growing phenological data sources. At the core of this proposed work is a well-tested ontology- based data integration system that supports machine reasoning to dramatically enhance discovery of research-ready phenology data. This core is strongly augmented by links to cutting edge computer vision approaches that provide a means to keep pace with the exponential increases in plant photographs and borne-digital specimen vouchers and integrate them with in situ human observation data.
+    Creating an accessible, integrated knowledge base of global plant phenological data 
+    with broad taxonomic, spatial, and temporal coverage (and tools to aid data use) will 
+    have far-reaching basic and applied scientific impact. Phenobase has two major 
+    intellectual merits. First, by closing taxonomic, spatial and temporal knowledge-gaps, 
+    it will enable finer-grain and broader extent analyses, dramatically improving 
+    understanding of global plant phenology pattern and process, relation to ecosystem function,
+    and responses to climate and landscape change. This will, in turn, provide the basis for 
+    better predictive models that can be used for responding to the conservation, agricultural,
+    and economic consequences of phenology change. A second area of merit is use of new tools 
+    to automate assembly and integration of vast and growing phenological data sources. At the
+    core of this proposed work is a well-tested ontology- based data integration system that 
+    supports machine reasoning to dramatically enhance discovery of research-ready phenology 
+    data. This core is strongly augmented by links to cutting edge computer vision approaches 
+    that provide a means to keep pace with the exponential increases in plant photographs and 
+    borne-digital specimen vouchers and integrate them with in situ human observation data.
     
     ## Broader impacts
     
-    Plant phenology data and related products are well suited for outreach initiatives given their obvious and intuitive connections to a variety of topics of general interest, such as food supply and agriculture, gardening, conservation, and climate change. Phenobase leverages the innate societal interest in phenology in developing three major community, educational and public outreach components. First, we will host annual hybrid working groups built around Phenobase to catalyze community involvement and new collaborations within the phenology research community. Second, we will provide hands-on, multidisciplinary training connecting the science of phenology with software development for undergraduate and graduate researchers who will be directly involved in the development and testing of our data access software packages. We will develop curriculum to improve the data science literacy of undergraduate biology students through the exploration of computer vision approaches and phenology data via a new data carpentry module. Finally, we will work with citizen science projects such as Notes from Nature, iNaturalist, and Budburst to empower people around the world to contribute to phenology research.
+    Plant phenology data and related products are well suited for outreach initiatives given 
+    their obvious and intuitive connections to a variety of topics of general interest, such 
+    as food supply and agriculture, gardening, conservation, and climate change. Phenobase 
+    leverages the innate societal interest in phenology in developing three major community,
+    educational and public outreach components. First, we will host annual hybrid working 
+    groups built around Phenobase to catalyze community involvement and new collaborations 
+    within the phenology research community. Second, we will provide hands-on, multidisciplinary
+    training connecting the science of phenology with software development for undergraduate 
+    and graduate researchers who will be directly involved in the development and testing 
+    of our data access software packages. We will develop curriculum to improve the data 
+    science literacy of undergraduate biology students through the exploration of computer 
+    vision approaches and phenology data via a new data carpentry module. Finally, we will 
+    work with citizen science projects such as Notes from Nature, iNaturalist, and Budburst 
+    to empower people around the world to contribute to phenology research.
     
 
+    ## News
+    
+    - A [press release](https://www.lsu.edu/mediacenter/news/2022/10/ai-plant-lifecycle-database.php) prepared by LSU about Phenobase
+    
 
 ########################### About ##################################
 about:
@@ -66,29 +95,65 @@ about:
       affliation: Louisiana State University
       image: 'images/PIs/dli.png'
       introduction: >
-        [Daijiang](https://www.dlilab.com/) is an Assistant Professor in the Department of Biological Sciences and the Center for Computation & Technology at the Louisiana State University. Daijiang’s research focuses on understanding and forecasting the effects of global environmental change on biodiversity, phenology, and species interactions by integrating community ecology, statistics, and ecoinformatics.
+        [Daijiang](https://www.dlilab.com/) is an Assistant Professor in the Department of Biological 
+        Sciences and the Center for Computation & Technology at the Louisiana State University. 
+        Daijiang’s research focuses on understanding and forecasting the effects of global 
+        environmental change on biodiversity, phenology, and species interactions by integrating 
+        community ecology, statistics, and ecoinformatics.
    
     - name: Rob Guralnick
       affliation: University of Florida
       image: 'images/PIs/robgur.png'
       introduction: >
-        Rob Guralnick is a UF Research Foundation Professor and Curator of Biodiversity Informatics at the University of Florida and Florida Museum of Natural History.  His work focuses on understanding global environmental change, and he uses community science approaches along with machine learning to generate and assemble data and models about specie distributions and traits.  These approaches are all in service to better understand which species might win or lose in the face of global change. He has special interest in phenology and phenologica responses to changing environments.
+        Rob Guralnick is a UF Research Foundation Professor and Curator of Biodiversity Informatics 
+        at the University of Florida and Florida Museum of Natural History.  His work focuses on 
+        understanding global environmental change, and he uses community science approaches along 
+        with machine learning to generate and assemble data and models about specie distributions 
+        and traits.  These approaches are all in service to better understand which species might 
+        win or lose in the face of global change. He has special interest in phenology and 
+        phenologica responses to changing environments.
 
     - name: Ellen Denny
       affliation: University of Arizona
       image: 'images/PIs/ellen.png'
       introduction: >
-        Ellen Denny is the Monitoring Design & Data Coordinator for [the USA National Network (USA-NPN)](https://www.usanpn.org/usa-national-phenology-network), which is based at the University of Arizona in Tucson. She has coordinated the development of the USA-NPN protocols for the collection of standardized ground-based plant and animal phenology observations across the nation. She serves as a data manager for the organization, and as a global liaison, helping to advise developing national phenology networks around the world, and working towards global integration of phenology data. She has a Master of Forest Science from the Yale School of Forestry & Environmental Studies. Ellen lives in Kittery, Maine.
+        Ellen Denny is the Monitoring Design & Data Coordinator for 
+        [the USA National Network (USA-NPN)](https://www.usanpn.org/usa-national-phenology-network), 
+        which is based at the University of Arizona in Tucson. She has coordinated the development 
+        of the USA-NPN protocols for the collection of standardized ground-based plant and animal 
+        phenology observations across the nation. She serves as a data manager for the organization, 
+        and as a global liaison, helping to advise developing national phenology networks around 
+        the world, and working towards global integration of phenology data. She has a Master of 
+        Forest Science from the Yale School of Forestry & Environmental Studies. Ellen lives in 
+        Kittery, Maine.
 
     - name: Emma Oschrin
       affliation: Chicago Botanic Garden
       image: 'images/PIs/emma.jpg'
       introduction: >
-        Emma Oschrin received her Ph.D. in Evolution, Ecology, and Behavior from Indiana University where she studied plant community ecology. She has also worked in the conservation non-profit sector, at the Mono Lake Committee in eastern California, where she gained an appreciation for interpretive science education. She now works at the Chicago Botanic Garden as the [Budburst](https://budburst.org/) Director, leading a community science project, Budburst, that is focused on plant phenology and plant-pollinator interactions. Emma helps people engage with the nature in their communities and works to turn community scientists’ contribution to research into meaningful conservation action. Throughout her educational and work experience, she developed a passion for effective science communication and believes that connecting to the plants all around us can serve as a gateway to broader environmental activism. Emma lives in Chicago, the greatest city in America.
+        Emma Oschrin received her Ph.D. in Evolution, Ecology, and Behavior from Indiana 
+        University where she studied plant community ecology. She has also worked in the 
+        conservation non-profit sector, at the Mono Lake Committee in eastern California, 
+        where she gained an appreciation for interpretive science education. She now works
+        at the Chicago Botanic Garden as the [Budburst](https://budburst.org/) Director, 
+        leading a community science project, Budburst, that is focused on plant phenology 
+        and plant-pollinator interactions. Emma helps people engage with the nature in 
+        their communities and works to turn community scientists’ contribution to research 
+        into meaningful conservation action. Throughout her educational and work experience, 
+        she developed a passion for effective science communication and believes that connecting 
+        to the plants all around us can serve as a gateway to broader environmental activism. 
+        Emma lives in Chicago, the greatest city in America.
 
     - name: Carrie Seltzer
       affliation: California Academy of Sciences
       image: 'images/PIs/carrie.jpg'
       introduction: >
-        Carrie works for [iNaturalist](https://www.inaturalist.org/), a platform connecting millions of people to nature and advancing understanding of biodiversity. As the Stakeholder Engagement Strategist, Carrie works to expand the impact of iNaturalist through collaborations and capacity building. Prior to joining the iNaturalist team in 2018, she was a Science & Technology Policy Fellow with the American Association for the Advancement of Science at the National Science Foundation where she worked on open data policy. She has a PhD from the University of Illinois at Chicago where she studied seed dispersal ecology. Carrie lives in Washington, DC.
+        Carrie works for [iNaturalist](https://www.inaturalist.org/), a platform connecting 
+        millions of people to nature and advancing understanding of biodiversity. As the 
+        Stakeholder Engagement Strategist, Carrie works to expand the impact of iNaturalist 
+        through collaborations and capacity building. Prior to joining the iNaturalist team 
+        in 2018, she was a Science & Technology Policy Fellow with the American Association 
+        for the Advancement of Science at the National Science Foundation where she worked 
+        on open data policy. She has a PhD from the University of Illinois at Chicago where 
+        she studied seed dispersal ecology. Carrie lives in Washington, DC.
 
