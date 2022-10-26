@@ -159,3 +159,32 @@ about:
         on open data policy. She has a PhD from the University of Illinois at Chicago where 
         she studied seed dispersal ecology. Carrie lives in Washington, DC.
 
+    - name: Ramona Walls
+      affliation: Critical Path Institute
+      image: 'images/PIs/ramona.png'
+      introduction: >
+        Ramona L. Walls, Ph.D. is a consulting ontologist for Phenobase. She is Executive 
+        Director of Data Science at the [Critical Path Institute (C-Path)](https://c-path.org/). 
+        She oversees multiple efforts including the development of C-Path’s Data and Analytics 
+        Platform, expansion and modernization of C-Path’s data integration pipeline to encompass 
+        new data types, and development of a rare disease knowledge graph. Walls joined C-Path 
+        in December 2020 and in 2021 she was promoted to Associate Director of Data Science. 
+        Walls retains an appointment in the Bio5 Institute of the University of Arizona. She 
+        received a bachelor’s degree in Environmental Resource Management and Horticulture at 
+        Penn State and a Ph.D. in Ecology and Evolution from Stony Brook University and did a 
+        post-doc at the New York Botanical Garden. 
+        [Google scholar profile](https://scholar.google.com/citations?hl=en&user=rEhRmsYAAAAJ) 
+
+
+    - name: John Deck
+      affliation: Berkeley Natural History Museums; Biocode, LLC
+      image: 'images/PIs/john.png'
+      introduction: >
+        John Deck is the founder of Biocode, LLC, as well as a staff programmer and research 
+        associate at the University of California at Berkeley, Berkeley Natural History Museums. 
+        For the last 20 years, John has worked on biodiversity informatics and connecting field 
+        biological samples to tissue samples, DNA sequences, and publications. He has built the 
+        Genomic Observatory MetaDatabase (GEOME) and projects annotating traits with ontology 
+        terms and building pipelines for assembling disparate data sources.   John also owns 
+        and operates Deck Family Farm in Junction City, Oregon.
+ 
