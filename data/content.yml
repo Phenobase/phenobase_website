@@ -103,17 +103,17 @@ about:
         environmental change on biodiversity, phenology, and species interactions by integrating 
         community ecology, statistics, and ecoinformatics.
    
-    - name: Rob Guralnick
-      affliation: University of Florida
-      image: 'images/PIs/robgur.png'
+    - name: John Deck
+      affliation: Berkeley Natural History Museums; Biocode, LLC
+      image: 'images/PIs/john.png'
       introduction: >
-        Rob Guralnick is a UF Research Foundation Professor and Curator of Biodiversity Informatics 
-        at the University of Florida and Florida Museum of Natural History.  His work focuses on 
-        understanding global environmental change, and he uses community science approaches along 
-        with machine learning to generate and assemble data and models about specie distributions 
-        and traits.  These approaches are all in service to better understand which species might 
-        win or lose in the face of global change. He has special interest in phenology and 
-        phenologica responses to changing environments.
+        John Deck is the founder of Biocode, LLC, as well as a staff programmer and research 
+        associate at the University of California at Berkeley, Berkeley Natural History Museums. 
+        For the last 20 years, John has worked on biodiversity informatics and connecting field 
+        biological samples to tissue samples, DNA sequences, and publications. He has built the 
+        Genomic Observatory MetaDatabase (GEOME) and projects annotating traits with ontology 
+        terms and building pipelines for assembling disparate data sources.   John also owns 
+        and operates Deck Family Farm in Junction City, Oregon.
 
     - name: Ellen Denny
       affliation: University of Arizona
@@ -129,22 +129,41 @@ about:
         Forest Science from the Yale School of Forestry & Environmental Studies. Ellen lives in 
         Kittery, Maine.
 
-    - name: Emma Oschrin
-      affliation: Chicago Botanic Garden
-      image: 'images/PIs/emma.jpg'
+    - name: Russell Dinnage
+      affliation: Florida International University; RD Consulting
+      image: 'images/PIs/russell.png'
       introduction: >
-        Emma Oschrin received her Ph.D. in Evolution, Ecology, and Behavior from Indiana 
-        University where she studied plant community ecology. She has also worked in the 
-        conservation non-profit sector, at the Mono Lake Committee in eastern California, 
-        where she gained an appreciation for interpretive science education. She now works
-        at the Chicago Botanic Garden as the [Budburst](https://budburst.org/) Director, 
-        leading a community science project, Budburst, that is focused on plant phenology 
-        and plant-pollinator interactions. Emma helps people engage with the nature in 
-        their communities and works to turn community scientists’ contribution to research 
-        into meaningful conservation action. Throughout her educational and work experience, 
-        she developed a passion for effective science communication and believes that connecting 
-        to the plants all around us can serve as a gateway to broader environmental activism. 
-        Emma lives in Chicago, the greatest city in America.
+        Russell Dinnage is a Research Assistant Professor at Florida International University and a 
+        machine learning consultant, focusing on biological applications. He is interested in 
+        ecological and evolutionary processes at broad scales, and how advanced computational tools 
+        can help to understand them, ultimately in the service of developing strategies for the 
+        coexistence of human society and biological diversity. He has a particular interest in 
+        developing tools for organismal biology based on cutting edge artificial intelligence 
+        breakthroughs, and exploring their promise for generating novel biological insights.
+        
+    - name: Erin Grady
+      affliation: University of Florida
+      image: 'images/PIs/erin.png'
+      introduction: >
+        Erin Grady is a botany master's student at the University of Florida. Her work focuses 
+        on the dynamics of iNaturalist user activity and their role in filling spatial data gaps. 
+        She is passionate about connecting individuals to their local natural environments and is 
+        pursuing an Environmental Education and Communication graduate certificate alongside her 
+        degree. Other interests include urban forestry and equitable access to recreation and green 
+        space. She has a Bachelor of Science in Biology from California Polytechnic State University, 
+        San Luis Obispo.
+        
+  - name: Rob Guralnick
+      affliation: University of Florida
+      image: 'images/PIs/robgur.png'
+      introduction: >
+        Rob Guralnick is a UF Research Foundation Professor and Curator of Biodiversity Informatics 
+        at the University of Florida and Florida Museum of Natural History.  His work focuses on 
+        understanding global environmental change, and he uses community science approaches along 
+        with machine learning to generate and assemble data and models about specie distributions 
+        and traits.  These approaches are all in service to better understand which species might 
+        win or lose in the face of global change. He has special interest in phenology and 
+        phenological responses to changing environments.
 
     - name: Carrie Seltzer
       affliation: iNaturalist
@@ -176,42 +195,9 @@ about:
         [Google scholar profile](https://scholar.google.com/citations?hl=en&user=rEhRmsYAAAAJ) 
 
 
-    - name: John Deck
-      affliation: Berkeley Natural History Museums; Biocode, LLC
-      image: 'images/PIs/john.png'
-      introduction: >
-        John Deck is the founder of Biocode, LLC, as well as a staff programmer and research 
-        associate at the University of California at Berkeley, Berkeley Natural History Museums. 
-        For the last 20 years, John has worked on biodiversity informatics and connecting field 
-        biological samples to tissue samples, DNA sequences, and publications. He has built the 
-        Genomic Observatory MetaDatabase (GEOME) and projects annotating traits with ontology 
-        terms and building pipelines for assembling disparate data sources.   John also owns 
-        and operates Deck Family Farm in Junction City, Oregon.
 
-        
-    - name: Erin Grady
-      affliation: University of Florida
-      image: 'images/PIs/erin.png'
-      introduction: >
-        Erin Grady is a botany master's student at the University of Florida. Her work focuses 
-        on the dynamics of iNaturalist user activity and their role in filling spatial data gaps. 
-        She is passionate about connecting individuals to their local natural environments and is 
-        pursuing an Environmental Education and Communication graduate certificate alongside her 
-        degree. Other interests include urban forestry and equitable access to recreation and green 
-        space. She has a Bachelor of Science in Biology from California Polytechnic State University, 
-        San Luis Obispo.
 
-    - name: Russell Dinnage
-      affliation: Florida International University; RD Consulting
-      image: 'images/PIs/russell.png'
-      introduction: >
-        Russell Dinnage is a Research Assistant Professor at Florida International University and a 
-        machine learning consultant, focusing on biological applications. He is interested in 
-        ecological and evolutionary processes at broad scales, and how advanced computational tools 
-        can help to understand them, ultimately in the service of developing strategies for the 
-        coexistence of human society and biological diversity. He has a particular interest in 
-        developing tools for organismal biology based on cutting edge artificial intelligence 
-        breakthroughs, and exploring their promise for generating novel biological insights.
+
     
 
   
