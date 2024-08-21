@@ -177,7 +177,13 @@ about:
         for the Advancement of Science at the National Science Foundation where she worked 
         on open data policy. She has a PhD from the University of Illinois at Chicago where 
         she studied seed dispersal ecology. Carrie lives in Washington, DC.
-
+        
+    - name: Taran Lichtenberger
+      affliation: Chicago Botanic Garden
+      image: 'images/PIs/taran.jpg'
+      introduction: >
+        Taran is the Community Science Programs Manager at [Chicago Botanic Garden](https://chicagobotanic.org/). Taran largely works on the climage change focused project Budburst, bringing together researchers, educators, and community scientists. Generally interested in how humans are a part of nature, Taran loves opportunities to show people the wonders of plants they might overlook.
+        
     - name: Ramona Walls
       affliation: Critical Path Institute
       image: 'images/PIs/ramona.png'
