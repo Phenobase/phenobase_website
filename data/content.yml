@@ -164,13 +164,18 @@ about:
         and traits.  These approaches are all in service to better understand which species might 
         win or lose in the face of global change. He has special interest in phenology and 
         phenological responses to changing environments.
-
+  
+   - name: Taran Lichtenberger
+      affliation: Chicago Botanic Garden
+      image: 'images/PIs/taran.png'
+      introduction: >
+        Taran is the Community Science Programs Manager at [Chicago Botanic Garden](https://chicagobotanic.org/). Taran largely works on the climage change focused project Budburst, bringing together researchers, educators, and community scientists. Generally interested in how humans are a part of nature, Taran loves opportunities to show people the wonders of plants they might overlook.
+          
     - name: Nevyn Neal
       affliation: University of Arizona
       image: 'images/PIs/nevyn.jpeg'
       introduction: >
         Nevyn Neal is a second-year graduate student in the Ecology and Evolutionary Biology department at the University of Arizona. His research focuses on optimizing the ways in which Community Ecology-sourced datasets are analyzed and integrated, work which includes developing AI Computer-vision models at large scales. Before moving to UA, Nevyn studied at Louisiana State University, and received his Biology and Computer Science bachelor degrees at Williams College.
-
 
     - name: Carrie Seltzer
       affliation: iNaturalist
@@ -184,12 +189,6 @@ about:
         for the Advancement of Science at the National Science Foundation where she worked 
         on open data policy. She has a PhD from the University of Illinois at Chicago where 
         she studied seed dispersal ecology. Carrie lives in Washington, DC.
-        
-    - name: Taran Lichtenberger
-      affliation: Chicago Botanic Garden
-      image: 'images/PIs/taran.png'
-      introduction: >
-        Taran is the Community Science Programs Manager at [Chicago Botanic Garden](https://chicagobotanic.org/). Taran largely works on the climage change focused project Budburst, bringing together researchers, educators, and community scientists. Generally interested in how humans are a part of nature, Taran loves opportunities to show people the wonders of plants they might overlook.
         
     - name: Ramona Walls
       affliation: Critical Path Institute
