@@ -94,11 +94,10 @@ about:
   title: 'Our team'
   team_list:
     - name: Daijiang Li
-      affliation: Louisiana State University
+      affliation: University of Arizona
       image: 'images/PIs/dli.png'
       introduction: >
-        [Daijiang](https://www.dlilab.com/) is an Assistant Professor in the Department of Biological 
-        Sciences and the Center for Computation & Technology at the Louisiana State University. 
+        [Daijiang](https://www.dlilab.com/) is an Assistant Professor in the Department of Ecology and Evolutionary Biology at the University of Arizona. 
         Daijiang’s research focuses on understanding and forecasting the effects of global 
         environmental change on biodiversity, phenology, and species interactions by integrating 
         community ecology, statistics, and ecoinformatics.
