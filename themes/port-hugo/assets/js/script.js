@@ -149,10 +149,10 @@
 
   function toggleLogoImg(id) {
     var img = document.getElementById(id).src;
-    if (img.indexOf('phenobase_dark_logo.svg') != -1) {
+    if (img.indexOf('dark_logo.svg') != -1) {
       document.getElementById(id).src = '/images/logo.svg';
     } else {
-      document.getElementById(id).src = '/images/phenobase_dark_logo.svg';
+      document.getElementById(id).src = '/images/dark_logo.svg';
     }
   }
 
