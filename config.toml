@@ -51,8 +51,8 @@ weight = 3
 
 #################### default parameters ################################
 [params]
-logo_light = "images/Phenobase_logo_light.svg"
-logo_dark = "images/Phrnobase_logo_dark.svg"
+logo_light = "images/Phenobase_light_logo.svg"
+logo_dark = "images/Phrnobase_dark_logo.svg"
 copyright = "Copyright Phenobase &copy;"
 
 # Meta data
