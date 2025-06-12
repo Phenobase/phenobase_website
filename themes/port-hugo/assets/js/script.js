@@ -150,7 +150,7 @@
   function toggleLogoImg(id) {
     var img = document.getElementById(id).src;
     if (img.indexOf('dark_logo.svg') != -1) {
-      document.getElementById(id).src = '/images/logo.svg';
+      document.getElementById(id).src = '/images/light_logo.svg';
     } else {
       document.getElementById(id).src = '/images/dark_logo.svg';
     }
