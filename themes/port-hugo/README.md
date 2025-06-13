@@ -1,10 +1,12 @@
 # Port-Hugo (A simple portfolio)
 
+currently tested with hugo v0.141.0
+
 This theme is a simple, customizable portfolio for designers or web developers.
 
-![Thumbnail](https://raw.githubusercontent.com/tylerjlawson/port-hugo/master/images/tn.png)
+![Thumbnail](https://raw.githubusercontent.com/tylersayshi/port-hugo/master/images/tn.png)
 
-![Screenshot](https://raw.githubusercontent.com/tylerjlawson/port-hugo/master/images/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/tylersayshi/port-hugo/master/images/screenshot.png)
 
 ## Features
 
@@ -22,7 +24,9 @@ This theme is a simple, customizable portfolio for designers or web developers.
 hugo new site your-site-name # if you already have a site ignore this line and the next
 cd your-site-name
 cd themes
-git clone https://github.com/tylerjlawson/port-hugo.git
+git clone https://github.com/tylersayshi/port-hugo.git
+cd port-hugo
+pnpm install # or yarn, npm, bun, etc.
 ```
 
 Once you have done this, you may use the `exampleSite` folder as an example for how to set your project up. The two main things to pay attention to is to first set this in your `config.toml` file:
@@ -32,6 +36,10 @@ theme = "port-hugo"
 ```
 
 Then you will need to replicate the data used in the `exampleSite/data/content.yaml` file to fill in the fields for your portfolio. Please also see the `exampleSite/config.toml` for guidance on setting up the more general site configurations.
+
+### Logo support
+
+Images named `logo.svg` and `logo-dark.svg` are meant to be used for the logos. They should be stored in `static/images` as seen in [./exampleSite/static/images](./exampleSite/static/images). If you wish to change this, the code to control the images is in `assets/js/script.js`.
 
 ## Credits
 

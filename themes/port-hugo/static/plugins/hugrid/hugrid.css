@@ -9,7 +9,7 @@
 .og-grid li {
 	display: inline-block;
 	margin: 10px 5px 0 5px;
-	vertical-align: left;
+	vertical-align: top;
 }
 
 .og-grid li > a,
@@ -87,15 +87,15 @@
 
 .og-fullimg,
 .og-details {
-	width: 80%;
-	float: center;
+	width: 50%;
+	float: left;
 	height: 100%;
 	overflow: hidden;
 	position: relative;
 }
 
 .og-details {
-	padding: 0 40px 0 40px;
+	padding: 0 40px 0 20px;
 }
 
 .og-fullimg {
@@ -111,14 +111,13 @@
 .og-details h3 {
 	font-weight: 400;
 	font-size: 52px;
-  margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .og-details p {
 	font-weight: 400;
-	font-size: 18px;
-	line-height: 23px;
+	font-size: 16px;
+	line-height: 22px;
 	color: #4d4d4d;
 }
 
