@@ -136,6 +136,27 @@ p {
   }
 }
 
+
+.video-responsive {
+  aspect-ratio: 1077 / 606;
+  width: 100%;
+  max-width: 1300px;   /* your desired max width */
+  margin: 0 auto;
+  background: #000;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-responsive iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+  margin-bottom: 30px;
+}
+
 img.resize {
   max-width: 100%;
   height: auto;

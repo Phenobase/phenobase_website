@@ -48,12 +48,17 @@ name = "About us"
 URL = "#about"
 weight = 3
 
+[[menu.main]]
+name = "Data Portal"
+URL = "#data_portal"
+weight = 4
+
 
 #################### default parameters ################################
 [params]
 logo_light = "images/light_logo.svg"
 logo_dark = "images/dark_logo.svg"
-copyright = "Copyright Phenobase &copy;"
+copyright = "Copyright PhenoBase &copy;"
 
 # Meta data
 description = "Phenobase project website"
