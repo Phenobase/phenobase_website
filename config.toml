@@ -50,7 +50,7 @@ weight = 3
 
 [[menu.main]]
 name = "Data Portal"
-URL = "#data_portal"
+URL = "https://phenobase.netlify.app/"
 weight = 4
 
 
@@ -93,3 +93,6 @@ link = "mailto:daijianglee@gmail.com"
 contentDir = "content/english"
 weight = 1
 home = "Home"
+
+    
+    

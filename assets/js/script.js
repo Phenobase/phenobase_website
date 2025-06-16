@@ -10,6 +10,35 @@
   /*--------------------------------
 			End Preloader Animation
 		----------------------------------*/
+		
+		document.addEventListener('DOMContentLoaded', function() {
+    // Get all links
+    const links = document.querySelectorAll('a[href]');
+    
+    links.forEach(link => {
+        const href = link.getAttribute('href');
+        
+        // Check if it's an external link (starts with http/https and doesn't contain current domain)
+        if (href && 
+            (href.startsWith('http://') || href.startsWith('https://')) && 
+            !href.includes(window.location.hostname)) {
+            
+            // Add target="_blank" and security attributes
+            link.setAttribute('target', '_blank');
+            link.setAttribute('rel', 'noopener noreferrer');
+            
+            // Optional: Add visual indicator
+            if (!link.querySelector('.external-icon')) {
+                const icon = document.createElement('span');
+                icon.className = 'external-icon';
+                icon.innerHTML = ' ↗';
+                icon.style.fontSize = '0.8em';
+                icon.style.opacity = '0.7';
+                link.appendChild(icon);
+            }
+        }
+    });
+});
 
   // -----------------------------
   //  Count Up
