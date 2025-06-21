@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{- partial "menu.html" . -}}
+<main class="container">
+  {{ with .Site.Data.content.data_portal }}
+    <section class="about-me" id="data_portal">
+      <div class="text-center">
+        <h1>{{ .title }}</h1>
+        {{ .description | markdownify }}
+      </div>
+    </section>
+  {{ end }}
+</main>
+{{- partial "footer.html" . -}}
+{{ end }}

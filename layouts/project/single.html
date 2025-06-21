@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{- partial "menu.html" . -}}
+
+<main class="container">
+  {{ if .Site.Data.content.portfolio.enable }}
+    {{ with .Site.Data.content.portfolio }}
+      <section class="about-me" id="portfolio">
+        <div class="video-responsive">
+          <iframe
+            src="https://www.youtube.com/embed/htfeTm6BNhk"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="text-center">
+          <h1>{{ .title }}</h1>
+          {{ .description | markdownify }}
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+</main>
+
+{{- partial "footer.html" . -}}
+{{ end }}
+

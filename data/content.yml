@@ -19,7 +19,7 @@ portfolio:
   enable: true
   title: 'Project Summary'
   description: > 
-    ![overview image of phenobase](images/overview.jpg)
+    ![overview image of phenobase](/images/overview.jpg)
   
     ## Overview
     
