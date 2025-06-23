@@ -13,9 +13,20 @@
       </div>
       <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
         {{ range .Site.Menus.main }}
-        <li class="menu-item hvr-underline-from-left {{ .Weight }}">
-          <a href="{{ .URL }}">{{ .Name }}</a>
-        </li>
+          {{ if .HasChildren }}
+            <li class="menu-item dropdown hvr-underline-from-left {{ .Weight }}">
+              <a href="{{ .URL }}" class="dropdown-toggle">{{ .Name }}</a>
+              <ul class="dropdown-menu">
+                {{ range .Children }}
+                  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            </li>
+          {{ else }}
+            <li class="menu-item hvr-underline-from-left {{ .Weight }}">
+              <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
         {{ end }}
       </ul>
       <!-- mobile-menu -->
@@ -39,9 +50,20 @@
           <nav>
             <ul class="mobile-menu-list">
               {{ range .Site.Menus.main }}
-              <li class="mobile-menu-item 1 mx-auto">
-                <a href="{{ .URL }}">{{ .Name }}</a>
-              </li>
+                {{ if .HasChildren }}
+                  <li class="mobile-menu-item dropdown mx-auto">
+                    <a href="{{ .URL }}" class="dropdown-toggle">{{ .Name }}</a>
+                    <ul class="dropdown-menu">
+                      {{ range .Children }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                      {{ end }}
+                    </ul>
+                  </li>
+                {{ else }}
+                  <li class="mobile-menu-item 1 mx-auto">
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                  </li>
+                {{ end }}
               {{ end }}
             </ul>
             <ul class="mobile-menu-icons list-inline mx-auto">

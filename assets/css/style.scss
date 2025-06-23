@@ -1489,3 +1489,36 @@ ul.experience-chart {
     text-align: center;
   }
 }
+.menu-item.dropdown {
+  position: relative;
+}
+.menu-item .dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: #fff;
+  min-width: 180px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu-item.dropdown:hover > .dropdown-menu,
+.menu-item.dropdown:focus-within > .dropdown-menu {
+  display: block !important;
+}
+.menu-item.dropdown.open > .dropdown-menu {
+  display: block !important;
+}
+.menu-item .dropdown-menu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.menu-item .dropdown-menu li a:hover {
+  background: #f0f0f0;
+}
