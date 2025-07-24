@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{- partial "menu.html" . -}}
+
+<main class="container">
+  {{ with .Site.Data.content.about }}
+    <section style="background:#eeebeb; display:flex;justify-content:center;" id="about">
+      <div class="text-center">
+        <h1>{{ .title | safeHTML }}</h1>
+        {{ range .team_list }}
+        <div id="wrap">
+          <h2>{{ .name }}</h2>
+          <img class="left" src="/{{ .image }}" />
+          <h4>{{ .affliation }}</h4>
+          <p>{{ .introduction | markdownify }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+</main>
+
+{{- partial "footer.html" . -}}
+{{ end }}

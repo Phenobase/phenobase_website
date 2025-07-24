@@ -40,17 +40,17 @@ weight = 1
 
 [[menu.main]]
 name = "Project"
-URL = "#portfolio"
+URL = "/project/"
 weight = 2
 
 [[menu.main]]
 name = "About us"
-URL = "#about"
+URL = "/about/"
 weight = 3
 
 [[menu.main]]
 name = "Data Portal"
-URL = "https://phenobase.netlify.app/"
+URL = "/data-portal/"
 weight = 4
 
 
@@ -94,5 +94,5 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 
-    
-    
+
+
