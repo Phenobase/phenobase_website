@@ -1,5 +1,8 @@
 ---
 title: "Data Portal"
 date: 2025-06-20
-layout: data-portal
+image: false
 ---
+
+
+[Click here to access the PhenoBase Data Portal](https://phenobase.netlify.app/)

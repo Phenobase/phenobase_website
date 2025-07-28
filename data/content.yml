@@ -197,19 +197,3 @@ about:
         Penn State and a Ph.D. in Ecology and Evolution from Stony Brook University and did a 
         post-doc at the New York Botanical Garden. 
         [Google scholar profile](https://scholar.google.com/citations?hl=en&user=rEhRmsYAAAAJ) 
-
-
-
-############################# data_portal ################################
-data_portal:
-  enable: true
-  title: 'Data portal'
-  description: > 
-    [Data can be viewed here](https://phenobase.netlify.app/)
-
-    
-
-  
-
-    
- 

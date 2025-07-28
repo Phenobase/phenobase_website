@@ -53,6 +53,18 @@ name = "Data Portal"
 URL = "/data-portal/"
 weight = 4
 
+[[menu.main]]
+name = "Publications"
+URL = "/publications/"
+weight = 5
+
+[[menu.main]]
+name = "Contact"
+URL = "/contact/"
+weight = 6
+
+
+
 
 #################### default parameters ################################
 [params]
