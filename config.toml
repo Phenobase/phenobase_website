@@ -63,8 +63,24 @@ name = "Contact"
 URL = "/contact/"
 weight = 6
 
+[[menu.main]]
+name = "Resources"
+url = "/resource/"
+weight = 7
+identifier = "resources"
+hasChildren = true
 
+  [[menu.main]]
+  parent = "Resources"
+  name = "Test Resource 1"
+  url = "/resource/test1/"
+  weight = 1
 
+  [[menu.main]]
+  parent = "Resources"
+  name = "Test Resource 2"
+  url = "/resource/test2/"
+  weight = 2
 
 #################### default parameters ################################
 [params]
