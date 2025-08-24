@@ -1,0 +1,59 @@
+baseurl: "https://phenobase.org/"  # please update this to your actual URL
+languageCode: "en-us"
+title: "Phenobase website"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  note: "/note/:year/:month/:day/:slug/"
+  post: "/post/:year/:month/:day/:slug/"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: Project
+      url: "project/"
+      weight: 2
+    - name: About
+      url: "about/"
+      weight: 3
+    - name: Data
+      url: "data-portal/"
+      weight: 4
+    - name: Publications
+      url: "publications/"
+      weight: 5
+    - name: Resources
+      url: "resources/"
+      weight: 6
+
+
+params:
+  description: "The formal website of Phenobase."
+  footer: "&copy; [Phenobase](https://phenobase.org) 2022 -- {Year} | [Github](https://github.com/phenobase) | [Email](mailto:phenobase.org@gmail.com)"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+
+
