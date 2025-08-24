@@ -4,7 +4,7 @@ description: A collection of helpful resources for Phenobase users.
 date: 2025-08-10
 ---
 
-***Note that this page is still under developing...***
+***Note that this page is still under development ...***
 
 # Useful links
 
