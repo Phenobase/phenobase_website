@@ -15,7 +15,7 @@ title: Home
 
 <pre style="margin:0; padding:0; background:none; border:none; box-shadow:none;">
   <code id="animated-text"
-    style="display:inline-block; width:100%; height:2.1em; font-size:2em; line-height:2.1em; color:#fff; background:none; border:none; box-shadow:none; vertical-align:top; overflow:hidden;">
+    style="display:inline-block; height:2.1em; font-size:2em; line-height:2.1em; color:#fff; background:none; border:none; box-shadow:none; vertical-align:top; overflow:hidden;">
   </code>
 </pre>
 
