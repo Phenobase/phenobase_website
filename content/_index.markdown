@@ -13,7 +13,7 @@ title: Home
 
   <span class="header-title-phenobase" style="color:#fff;font-weight:bold;">Phenobase</span>
 
-<pre style="margin:0; padding:0; background:none; border:none; box-shadow:none;">
+<pre style="margin:0; padding:0; background:none; border:none; box-shadow:none;overflow:hidden;">
   <code id="animated-text"
     style="display:inline-block; height:2.1em; font-size:2em; line-height:2.1em; color:#fff; background:none; border:none; box-shadow:none; vertical-align:top; overflow:hidden;">
   </code>
