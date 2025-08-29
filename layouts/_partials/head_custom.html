@@ -1,0 +1,30 @@
+{{if .IsHome }}
+<style>
+body {
+  background-image: url('/images/background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  clear: both;
+  min-height: 100%;
+  width: 100%;
+  display: block !important;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url('/images/mobile_background.jpeg'); /* For mobile */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    clear: both;
+    min-height: 100%;
+    width: 100%;
+    display: block !important;
+  }
+}
+
+</style>
+{{ end }}

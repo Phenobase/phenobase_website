@@ -1,5 +1,25 @@
 ---
-title: "Project"
-date: 2025-06-20
-layout: project
+title: Phenobase Project
 ---
+
+**Phenobase** is a global resource for plant phenology, combining and standardizing phenology data from monitoring programs, community-contributed images, and historical plant specimens. Explore our site to learn about how we collect, annotate, standardize, and share our data – and how you can access it. 
+
+New to Phenobase? Watch this video for a brief introduction.
+
+<iframe width="884" height="497" src="https://www.youtube.com/embed/htfeTm6BNhk" title="Phenobase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+![overview image of phenobase](/images/overview.jpg)
+ 
+# Overview
+  
+Plant phenology – the timing of plant life-cycle events such as leafing out, flowering, and fruiting – plays a fundamental role in the functioning of natural ecosystems and human agricultural and economic systems. Plant phenology is sensitive to environmental change and changes in plant phenology can dramatically impact ecosystem function and services. Therefore, plant phenology is at the center of understanding how accelerating environmental changes (e.g., climate and land-use changes) are reshaping biosphere. However, urgent phenology-related scientific questions remain difficult to answer due to both a lack of sufficient data and substantial challenges with integrating those data that have been collected. To address this challenge, we will build upon our substantial preliminary work over the last several years to 1) develop a global, standardized knowledge base (Phenobase) of phenological data by integrating different phenology observation networks around the world; 2) expand this knowledge base by using computer vision (CV) techniques to generate new, high-quality phenological data from the rapidly growing collection of community-submitted plant photographs on iNaturalist and Budburst; 3) add critical historical phenological data to the knowledge base by using similar CV techniques on herbarium specimens available through iDigBio and GBIF; 4) develop tools for data query, access, and visualization delivered via the Web and as software packages; and 5) foster compelling, community-driven use cases showcasing the use of Phenobase for new research and for public good. In short, Phenobase will support community needs for generating and delivering high-precision, harmonized and semantically integrated plant phenological data at unprecedented taxonomic, geographic, and temporal scales, along with new tools to help scientists and the public engage with these data.
+
+# Intellectual merit
+
+Creating an accessible, integrated knowledge base of global plant phenological data with broad taxonomic, spatial, and temporal coverage (and tools to aid data use) will have far-reaching basic and applied scientific impact. Phenobase has two major intellectual merits. First, by closing taxonomic, spatial and temporal knowledge-gaps, it will enable finer-grain and broader extent analyses, dramatically improving understanding of global plant phenology pattern and process, relation to ecosystem function, and responses to climate and landscape change. This will, in turn, provide the basis for better predictive models that can be used for responding to the conservation, agricultural, and economic consequences of phenology change. A second area of merit is use of new tools to automate assembly and integration of vast and growing phenological data sources. At the core of this proposed work is a well-tested ontology- based data integration system that supports machine reasoning to dramatically enhance discovery of research-ready phenology data. This core is strongly augmented by links to cutting edge computer vision approaches that provide a means to keep pace with the exponential increases in plant photographs and borne-digital specimen vouchers and integrate them with in situ human observation data.
+
+# Broader impacts
+
+Plant phenology data and related products are well suited for outreach initiatives given their obvious and intuitive connections to a variety of topics of general interest, such as food supply and agriculture, gardening, conservation, and climate change. Phenobase leverages the innate societal interest in phenology in developing three major community, educational and public outreach components. First, we will host annual hybrid working groups built around Phenobase to catalyze community involvement and new collaborations within the phenology research community. Second, we will provide hands-on, multidisciplinary training connecting the science of phenology with software development for undergraduate and graduate researchers who will be directly involved in the development and testing of our data access software packages. We will develop curriculum to improve the data science literacy of undergraduate biology students through the exploration of computer vision approaches and phenology data via a new data carpentry module. Finally, we will work with citizen science projects such as Notes from Nature, iNaturalist, and Budburst to empower people around the world to contribute to phenology research.
+  

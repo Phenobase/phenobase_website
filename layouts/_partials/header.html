@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" />
+    {{ partial "head_custom.html" . }}
+    
+<a href="/">
+  {{ if .IsHome }}
+    <img src="/images/light_logo.svg" alt="Logo" style="position:absolute;top:5px;left:5%;max-width:200px;z-index:100;">
+  {{ else }}
+    <img src="/images/dark_logo.svg" alt="Logo" style="position:absolute;top:5px;left:5%;max-width:200px;z-index:100;">
+  {{ end }}
+</a>
+     
+<img src="/images/NSF_logo.png" alt="Logo" style="position:absolute;top:5px;right:5%;max-width:60px;z-index:100;">
+     
+     
+    <nav>
+    <ul class="menu{{ if .IsHome }} text-white{{ end }}">
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL | relURL }}"{{ with .Params.target }} target="{{ . }}"{{ end }}>{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+    </nav>
+    
+  </head>
+  
+  {{ if not .IsHome }}
+  <hr>
+  {{ end }}
+
+
+  <body>
+

@@ -7,3 +7,6 @@
 */*/.DS_Store
 public/
 blogdown/
+Thumbs.db
+.hugo_build.lock
+resources/
